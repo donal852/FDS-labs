@@ -1,0 +1,34 @@
+//   Darshan 
+//   SYITA151
+//   Simple calculator
+ #include <stdio.h>
+ int main()
+ {
+     int num1,num2,op;
+
+     printf(" 1.Addition \n 2.Subtraction\n 3.Multiplication\n 4.Division\n Choose the option of operation u want to perform(1,2,3,4):");
+     scanf("%d",&op);
+
+     printf("Enter two numbers: ");
+     scanf("%d %d",&num1,&num2);
+
+     switch(op)
+     {
+       case 1:
+         printf("%d\n",num1+num2); 
+         break;
+       case 2:
+         printf("%d\n",num1-num2);
+         break;
+       case 3:
+         printf("%d\n",num1*num2);
+         break;
+       case 4:
+         printf("%d\n",num1/num2);
+         break;
+       default:
+         printf("Invalid case /n choose the option from the above.");
+     }
+
+     return 0;
+ }
