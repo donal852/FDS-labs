@@ -1,6 +1,5 @@
-
-/*Name : Shubham Santosh Gholave
-Roll no : SYITA139*/
+// Name : Kasar Darshan Ajay
+// Roll no : SYITA151
 
 #include <stdio.h>
 #include<stdlib.h>
